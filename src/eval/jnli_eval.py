@@ -1,11 +1,10 @@
 import argparse, json, os
 from collections import Counter
-from datasets import load_dataset
 from src.data.load_jglue import load_jnli
 from src.eval.metrics import accuracy
 
 def majority_label(train_split='train'):
-    ds = load_dataset('shunk031/JGLUE','JNLI', split=train_split)
+    ds = load_jnli(split=train_split)
     cnt = Counter(int(x['label']) for x in ds)
     return cnt.most_common(1)[0][0]
 
