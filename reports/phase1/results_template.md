@@ -4,11 +4,7 @@
 - Accuracy (majority): 0.5534100246507806
 - Accuracy (lexical rule): 0.5624486442070665
 
-## JSQuAD(v1)
-- EM: 0.0
-- F1: 0.03233617775490807
-
-## JSQuAD(v2)
+## JSQuAD
 - EM: 0.0
 - F1: 0.03233617775490807
 
