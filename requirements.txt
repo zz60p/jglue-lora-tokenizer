@@ -1,0 +1,25 @@
+torch>=2.1
+transformers>=4.42.0
+datasets>=2.19.0
+accelerate>=0.30.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+
+# Japanese tokenization
+fugashi>=1.3.3
+unidic-lite>=1.0.8
+SudachiPy>=0.6.8
+sudachidict-core>=20240109
+
+# QA heuristic baseline
+rank-bm25>=0.2.2
+
+# optional
+tqdm>=4.66.0
+rich>=13.7.0
+pyyaml>=6.0.1

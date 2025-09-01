@@ -1,0 +1,4 @@
+task: JNLI
+split: validation
+metrics:
+  - accuracy
